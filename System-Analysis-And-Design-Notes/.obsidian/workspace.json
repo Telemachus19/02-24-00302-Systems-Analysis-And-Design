@@ -1,0 +1,150 @@
+{
+  "main": {
+    "id": "ec2fbe696226d831",
+    "type": "split",
+    "children": [
+      {
+        "id": "ba27fd158ea098bb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ad13c2858fddc68d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chapter 1 - The System Analyst And Information Systems Development.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "54f92d346697ceac",
+    "type": "split",
+    "children": [
+      {
+        "id": "dbfc930dd60c79bd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "87cec627cb02f027",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "aee51d36e5a566b6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9a5c8b33340df897",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "718b839690fa03bf",
+    "type": "split",
+    "children": [
+      {
+        "id": "44fa948f537cbd61",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5172a30eb8263ac3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Chapter 1 - The System Analyst And Information Systems Development.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "47e92c51ff41d7b5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Chapter 1 - The System Analyst And Information Systems Development.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ef2de641ba27e788",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "7d6296194946cf00",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Chapter 1 - The System Analyst And Information Systems Development.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "ad13c2858fddc68d",
+  "lastOpenFiles": [
+    "Chapter 1 - The System Analyst And Information Systems Development.pdf",
+    "2022-10-17.md",
+    "Chapter 1 - The System Analyst And Information Systems Development.md",
+    "Untitled.md"
+  ]
+}
