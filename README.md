@@ -1,6 +1,5 @@
 ---
 title: 02-24-00302-Systems-Analysis-And-Design
-descritption: Introduction to systems analysis and design, Analysis and design tools, Advanced systems design concepts, Case studies and practical projects, Current trends in systems development
 author: Ahmed Ashraf Mohamed
 ---
 <!-- # 02-24-00302-Systems-Analysis-And-Design
