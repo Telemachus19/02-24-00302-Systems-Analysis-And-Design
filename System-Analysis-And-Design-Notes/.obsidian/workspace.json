@@ -11,11 +11,9 @@
             "id": "ad13c2858fddc68d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Chapter 1 - The System Analyst And Information Systems Development.md",
-                "mode": "source",
-                "source": false
+                "file": "Chapter 1 - The System Analyst And Information Systems Development.pdf"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Chapter 1 - The System Analyst And Information Systems Development.md",
+                "file": "Chapter 1 - The System Analyst And Information Systems Development.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Chapter 1 - The System Analyst And Information Systems Development.md",
+                "file": "Chapter 1 - The System Analyst And Information Systems Development.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Chapter 1 - The System Analyst And Information Systems Development.md"
+                "file": "Chapter 1 - The System Analyst And Information Systems Development.pdf"
               }
             }
           }
@@ -142,9 +140,9 @@
   },
   "active": "ad13c2858fddc68d",
   "lastOpenFiles": [
+    "Chapter 1 - The System Analyst And Information Systems Development.md",
     "Chapter 1 - The System Analyst And Information Systems Development.pdf",
     "2022-10-17.md",
-    "Chapter 1 - The System Analyst And Information Systems Development.md",
     "Untitled.md"
   ]
 }
