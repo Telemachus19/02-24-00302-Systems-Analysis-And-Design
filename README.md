@@ -4,7 +4,6 @@ descritption: Introduction to systems analysis and design, Analysis and design t
 author: Ahmed Ashraf Mohamed
 ---
 
-[TOC]
 
 # Chapter 1 - The System Analyst and Information Systems Development
 ## Introduction
