@@ -524,6 +524,7 @@ The difference is that _non-functional requirement_ describes **how the system w
 
 # Interviews
 
+> The interview is the most commonly used requirements elicitation technique. After all, it is natural
 - A one-on-one dig through your user's knowledge base
 - A way to collect large amounts of in-depth data quickly
 - Exploring someone's knowledge and needs in-depth, one-on-one
