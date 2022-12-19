@@ -1,0 +1,15 @@
+Begin If preffered
+	begin if customer order more than $1,000 
+		Then 
+			Apply a 5% discount
+			If Customer use our charge card
+				Then
+					Apply an additional 5% discount
+			End IF
+	Else
+		Award $25 bouns coupon 
+	End IF
+	Else
+		Award $5 Bounds coupon
+		
+End IF

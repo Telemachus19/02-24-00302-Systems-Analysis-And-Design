@@ -1,0 +1,57 @@
+\documentclass[tikz,crop]{standalone}
+\usetikzlibrary{angles,quotes,positioning,arrows,shapes,patterns,decorations,calc,decorations.pathreplacing}
+\usepackage{mathptmx}
+\usepackage[T1]{fontenc}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepackage{mathrsfs}
+\tikzset{
+  treenode/.style = {shape=rectangle, rounded corners,
+                     draw, align=center,
+                     top color=white, bottom color=blue!20},
+  root/.style     = {treenode, font=\Large, bottom color=red!30},
+  env/.style      = {treenode, font=\normalsize},
+  dummy/.style    = {circle,draw},
+}
+\begin{document}
+\begin{tikzpicture}[
+        grow                    = right,
+        sibling distance        = 10em,
+        level distance          = 12em,
+        edge from parent/.style = {draw, -latex},
+        every node/.style       = {font=\footnotesize},
+        sloped
+    ]
+    \node [dummy] {1}
+    child { node [dummy] {2}
+            child{node [dummy]{4}
+                    child{node [env]{6}
+                            child{
+                                    node [dummy] {}
+                                    edge from parent node[above] {5 \% and additional 5\% discount}
+                                }
+                            edge from parent node [above] {use charge card}}
+                    child{node [env]{7}
+                            child{
+                                    node [dummy] {}
+                                    edge from parent node [above] {5 \% discount}
+                                }
+                            edge from parent node [above] {not use charge card}}
+                    edge from parent node [above] {order $\ge$ \$ 1,000}}
+            child{node [env]{5}
+                    child{
+                            node [dummy]{}
+                            edge from parent node [above] {\$25 bonus coupon}
+                        }
+                    edge from parent node [below] {order < \$ 1,000}}
+            edge from parent node [above] {preferred customer} }
+    child {
+            node [env] {3}
+            child{
+                    node [dummy] {}
+                    edge from parent node [above] {\$5 bonus coupon}
+                }
+            edge from parent node [below] {not preferred customer}
+        };
+\end{tikzpicture}
+\end{document}

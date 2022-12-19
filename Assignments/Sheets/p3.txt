@@ -1,0 +1,10 @@
+If Parcel is sent by express then 
+	basic charge will be 6 $/kg
+else
+	Basic charge will 4 $/kg.
+endif
+if Distance is over 200km then
+	Charge will increase by 1 $/kg
+endif
+if weight over 10kg then
+	charge 0.5 * differnce between weight and 10

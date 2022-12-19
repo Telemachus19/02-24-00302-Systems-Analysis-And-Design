@@ -1,0 +1,9 @@
+If speed it critical then
+	All employees should take the company car for local travel and domestic airles (economic class) for intercity travel.
+Else
+	If employee grade is 3 or lower then
+		employee should take a bus for both local and intercity travel.
+	Else
+		Should use domesti airlines (economy class) for intercity travel, and use a taxi locally.
+EndIF
+	

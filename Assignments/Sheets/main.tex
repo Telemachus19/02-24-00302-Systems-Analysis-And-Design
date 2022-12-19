@@ -1,0 +1,119 @@
+\documentclass[12pt]{article}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{bbding}
+\usepackage{array}
+
+
+\title{Process specification Sheet}
+\author{Ahmed Ashraf Mohamed \\ 2103134}
+\date{}
+\begin{document}
+\maketitle
+\begin{algorithm}
+    \caption{Problem-1}\label{alg:problem-1}
+    \begin{algorithmic}[1]
+        \If{The customer is preffered}
+        \If{Customer order more than \$1,000}
+        \State Apply a 5\% discount
+        \If{Customer used charge card}
+        \State Apply an additional 5\% discount
+        \EndIf
+        \Else
+        \State Award \$25 bonus coupon
+        \EndIf
+        \Else
+        \State Award \$5 bonus coupon
+        \EndIf
+    \end{algorithmic}
+\end{algorithm}
+\begin{tabular}{l l l l l l l l l}
+    \toprule
+                             & \multicolumn{8}{c}{Rules}                                                                                            \\
+    \midrule
+    Conditions               & 1                         & 2          & 3          & 4          & 5          & 6          & 7          & 8          \\
+    preferred Customer       & Y                         & Y          & Y          & Y          & N          & N          & N          & N          \\
+    order $\ge$ \$1,000      & Y                         & Y          & N          & N          & Y          & Y          & N          & N          \\
+    used our charge card     & Y                         & N          & Y          & N          & Y          & N          & Y          & N          \\
+    \midrule
+    Actions                  & \multicolumn{8}{c}{}                                                                                                 \\
+    5 \$ discount            & \Checkmark                & \Checkmark &            &            &            &            &            &            \\
+    Additional 5 \% discount & \Checkmark                &            &            &            &            &            &            &            \\
+    \$25 bonus coupon        &                           &            & \Checkmark & \Checkmark &            &            &            &            \\
+    \$5 bonus coupon         &                           &            &            &            & \Checkmark & \Checkmark & \Checkmark & \Checkmark \\
+    \bottomrule
+\end{tabular}
+
+\includegraphics[width = 0.9\linewidth]{img/fig-1.pdf}
+
+\begin{algorithm}
+    \caption{Problem-2}\label{alg:problem-2}
+    \begin{algorithmic}[1]
+        \If{Speed is critical}
+        \State employees should take the company car for local travel and domestic airlines (economy class) for intercity travel
+        \Else
+        \If{employee grade is 3 or lower}
+        \State Employee should take a bus for both local and intercity travel.
+        \Else
+        \State Should use domestic airlines (economy class) for intercity travel, and use a taxi locally.
+        \EndIf
+        \EndIf
+    \end{algorithmic}
+\end{algorithm}
+
+\begin{tabular}{l l l l l}
+    \toprule
+                                           & \multicolumn{4}{c}{Rules}                                        \\
+    \midrule
+    Conditions                             & 1                         & 2          & 3          & 4          \\
+    Speed is critical                      & Y                         & Y          & N          & N          \\
+    Employee grade \(\le 3\)               & Y                         & N          & Y          & N          \\
+    \midrule
+    Actions                                & \multicolumn{4}{c}{}                                             \\
+    Take company car and domestic airlines & \Checkmark                & \Checkmark &            &            \\
+    Take a bus for both                    &                           &            & \Checkmark &            \\
+    Taxi locally and domestic airlines     &                           &            &            & \Checkmark \\
+    \bottomrule
+\end{tabular}
+
+\includegraphics[width = 0.9\linewidth]{img/fig-2.pdf}
+\begin{algorithm}
+    \caption{Problem-3}\label{alg:problem-3}
+    \begin{algorithmic}[1]
+        \If{Parcel is sent by express}
+        \State Basic charge will be 6 \$/kg
+        \Else
+        \State Basic charge will be 4 \$/kg
+        \EndIf
+        \If{Distance of is over 200km}
+        \State Charge will increase by 1 \$/kg
+        \EndIf
+        \If{Weight is over 10kg}
+        \State charge extra \(0.5 \times (w - 10)\)
+        \EndIf
+    \end{algorithmic}
+\end{algorithm}
+
+\begin{tabular}{l l l l l l l l l}
+    \toprule
+                                       & \multicolumn{8}{c}{Rules}                                                                                            \\
+    \midrule
+    Conditions                         & 1                         & 2          & 3          & 4          & 5          & 6          & 7          & 8          \\
+    Sent by Express                    & Y                         & Y          & Y          & Y          & N          & N          & N          & N          \\
+    Distance is over 200km             & Y                         & Y          & N          & N          & Y          & Y          & N          & N          \\
+    weight is over 10kg                & Y                         & N          & Y          & N          & Y          & N          & Y          & N          \\
+    \midrule
+    Actions                            & \multicolumn{8}{c}{}                                                                                                 \\
+    Basic charge will be 6 \$/kg       & \Checkmark                & \Checkmark & \Checkmark & \Checkmark &            &            &            &            \\
+    Basic charge will be 4 \$/kg       &                           &            &            &            & \Checkmark & \Checkmark & \Checkmark & \Checkmark \\
+    Charge will increase by 1 \$/kg    & \Checkmark                & \Checkmark &            &            & \Checkmark & \Checkmark &            &            \\
+    charge extra $0.5 \times (w - 10)$ & \Checkmark                &            & \Checkmark &            & \Checkmark &            & \Checkmark &            \\
+    \bottomrule
+\end{tabular}
+
+\includegraphics[scale = 0.9]{img/fig-3.pdf}
+
+\end{document}
