@@ -185,7 +185,7 @@ Consists of five consecutive phases:
 - Analysis Phase:
     - Answers the following:
         - Who will use the system
-        - What hte system will do
+        - What the system will do
         - Where it will be used
         - When It will be used
     - The Project team in this phase:
@@ -1036,3 +1036,152 @@ Data element consists of:
 
 
 
+# System Design
+
+## Output Design
+
+### Objectives
+
+- Ensure the use and acceptance of the information
+- Serve a specific user or an organizational purpose
+- useful to user
+- Provided on time
+- Choose the most effective output method
+- Deliver appropriate quantity of output
+- Must make sure that the output is where it's needed
+
+Relating Output Content to Method
+
+Content of output must be considered as interrelated to the output method.
+1. External Output
+    - Going outside the business
+    - Utility bills
+    - Ads
+    - Paychecks
+2. Internal output
+    - Stays withing the business
+    - Summary reports
+    - Detailed reports
+    - Historical reports
+    - might contain martial available on the internet
+
+
+### Output Tech
+
+1. Printers
+    - Geared toward flexibility
+    - Key factors
+        - reliability
+        - compatibility
+        - support
+2. Display Screen
+    - Pros
+        - Easy to maintain up to date
+        - Result in cost savings (cost saver)
+        - Might be more desirable from user's standpoint
+    - Cons
+        - Different screen resolution 
+        - fonts
+3. Electronic output
+    - E-mail
+    - Faxes
+    - Bulletin boards
+4. RSS (really simple syndication)
+    - Gathers and distributes news and other content from multiple sources
+    - RSS-readers can be standalone or integrated with a browser
+    - Efficiently organizes news and other information from a variety of sources
+5. Push and pull tech (scraping)
+    - Pull
+        - Allows user to take formatted data from the web
+    - push
+        - Sends solicited or unsolicited information to a customer or client
+
+### Bias
+
+- Beware of the sources of bias
+- design output that includes users
+- Work with users so that they are informed of the bias
+- Train users to rely on multiple output for conducting a (reality check) on system output
+- create output that is flexible and allow user to modify limits and range
+
+### Printed Output
+
+- Detailed reports
+    - Prints a report line for every record on the master file
+- Exception report
+    - print a line for all records that match a certain condition
+- summary
+    - print one line for a group of records that are used to make decision
+
+#### Conventions
+
+- contain constant information that doesn't change
+- variable information vary each time the report is printed
+- Paper quality, type, and size are constants and determined beforehand
+
+#### Printed reports
+
+- Must be well organized
+- has lots of stylistic considerations
+- Functional attributes
+
+### Screen Output 
+
+- Keep display simple
+- keep the presentation Consistent
+- facilitate user movement among displayed output
+- create attractive and pleasing displays
+- Graphical Output
+    - Purpose of graph
+    - Kind of data displayed
+    - Audience
+    - Effects on the audience of different kinds of graphical output
+
+## Input Design
+
+### Objectives
+
+- Effectiveness
+- Accurate
+- Easy to use
+- consistency
+- simplicity
+- Attractiveness
+
+### Form Design
+
+1. Easy to fill
+    - Form flow
+        - can minimize time and effort expended by employees in form completion
+        - flows left to right, top to bottom
+    - 7 sections of a form
+        1. Heading
+        2. identification and access
+        3. Instructions
+        4. Body
+        5. signature and verification
+        6. Totals
+        7. Comments
+    - Captioning
+        - Line
+            - caption on the same line or below
+        - boxed
+            - inside of box instead of a line
+        - Checkoff
+            - Lining up choices or alternatives vertically
+        - Horizontal checkoff
+            - lining up choice or alternative horizontally
+        - Table
+            - work well in the body of a form
+        - combination
+2. Meets the purpose for which they are designed
+    - System analyst may use different types of specialty form for different purposes
+    - Specialty forms
+        - Multiple-part
+        - continuos feed
+        - perforated
+3. Designed to ensure accurate completion
+4. Attractive
+    - Must draw people into them and encourage completion
+    - Look uncluttered and elicit information in expected order
+    - use different fonts and weight to make it more attractive and draw attention
