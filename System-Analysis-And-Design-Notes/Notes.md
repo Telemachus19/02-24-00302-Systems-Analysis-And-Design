@@ -147,7 +147,12 @@ An Organization may also be described as a system where all staff interact with 
 	- identify the business value that the system will create.
 	- Develops ideas for improving the business processes
 	- Helps design new business processes and policies
-    
+- Consultant
+    - bring with them a fresh perspective that people in an organization do not possess.
+- Supporting Expert
+    -  an analyst draws on professional expertise concerning computer hardware and software and their uses in the business.
+- Agent of change
+    - 
 
 # What's a System/Software Development Life Cycle?
 
@@ -162,6 +167,7 @@ Consists of five consecutive phases:
 - Maintenance Phase
 
 ## Planning Phase
+
 - Answers why the information System should be built
 - Determine how the project team will **go**
 - Composed of:
@@ -174,6 +180,8 @@ Consists of five consecutive phases:
     - Obtain needed approvals
 
 ## Analysis Phase
+
+> The analysis phase answers the questions of who will use the system, what the system will do, and where and when it will be used.
 
 - Analysis Phase:
     - Answers the following:
@@ -522,15 +530,18 @@ The difference is that _non-functional requirement_ describes **how the system w
 - Focus groups
 - Prototypes (**RPD**)
 
-# Interviews
+# Information Gathering
+
+## Interviews
 
 > The interview is the most commonly used requirements elicitation technique. After all, it is natural
+
 - A one-on-one dig through your user's knowledge base
 - A way to collect large amounts of in-depth data quickly
 - Exploring someone's knowledge and needs in-depth, one-on-one
 - Ensure that you understand the real, not just the perceived need
 
-## Planning for an interview
+### Planning for an interview
 
 - Read background materials
 - Establish objectives
@@ -538,16 +549,16 @@ The difference is that _non-functional requirement_ describes **how the system w
 - Prepare the interviewee
 - Decide Question types and Structures
 
-## Structured vs Non-structured interviews
+### Structured vs Non-structured interviews
 
-### Structured interviews
+#### Structured interviews
 
 - Strictly adhere to the use of an interview protocol to guide
 - Rigid interview style
 - not a lot of opportunities to probe and further explore topics
 - advantageous if there is a comprehensive list of interview questions
 
-### Semi-structured interviews
+#### Semi-structured interviews
 
 - use an interview protocol to help guide the interview
 - maintain some structure
@@ -555,7 +566,7 @@ The difference is that _non-functional requirement_ describes **how the system w
 - offers flexibility
 - no need for several rounds as it follows a protocol
 
-### Unstructured interviews
+#### Unstructured interviews
 
 - happen with few if any, interview questions
 - progress in the manner of a normal conversation on some topic
@@ -564,9 +575,9 @@ The difference is that _non-functional requirement_ describes **how the system w
 - need to conduct several rounds of interviews
 - participant's narratives maneuver the conversation away
 
-## Recording the interview
+### Recording the interview
 
-### Tape record
+#### Tape record
 
 - need permission to be done
 - **Advantages** (pros)
@@ -582,7 +593,7 @@ The difference is that _non-functional requirement_ describes **how the system w
     - difficulty to find important passages on a long tape
     - increasing costs of data gathering
 
-### Note taking
+#### Note taking
 
 - **Advantages** (pros)
     - keeping the interviewer alert
@@ -596,9 +607,9 @@ The difference is that _non-functional requirement_ describes **how the system w
     - make the interviewee hesitant to speak when notes are being made
     - causing excessive attention to fact and too little attention to feelings and opinions
 
-## Questions Types
+### Questions Types
 
-### Open-ended
+#### Open-ended
 
 - Allow interviewees to respond how thy with any length
 - interested in the breadth and depth of the reply
@@ -618,7 +629,7 @@ The difference is that _non-functional requirement_ describes **how the system w
     - take too much time for useful information
     - potentially seems that the interviewer is unprepared
 
-### Close-ended
+#### Close-ended
 
 - Limit the number of possible responses
 - Generate precise, reliable data which is easy to analyze
@@ -637,12 +648,12 @@ The difference is that _non-functional requirement_ describes **how the system w
     - Missing main ideas
     - Failing to build rapport between interviewer and interviewee
 
-### Bipolar Questions
+#### Bipolar Questions
 
 - Answered with a ("yes","no") or ("agree","disagree")
 - Should be used sparingly
 
-### Probing Questions
+#### Probing Questions
 
 - Elicit more detail about _previous questions_
 - Purpose
@@ -650,7 +661,7 @@ The difference is that _non-functional requirement_ describes **how the system w
     - Clarify
     - Draw out and expand on the interviewee's
 
-## Pitfalls
+### Pitfalls
 
 - Avoid leading questions as leading questions tend to guide interviewees into responses desired by the interviewer
     - should be avoided to
@@ -662,9 +673,9 @@ The difference is that _non-functional requirement_ describes **how the system w
         - as interviewees may answer only one question
         - leading to difficulties in interpretation
 
-## Questions Structuring
+### Questions Structuring
 
-### Pyramid
+#### Pyramid
 
 - Begin with detailed questions (Close-ended Questions)
 - Expand by allowing generalized responses (Open-ended questions)
@@ -672,39 +683,39 @@ The difference is that _non-functional requirement_ describes **how the system w
     - Interviewees need to be armed up to the topic
     - seem reluctant to address the topic
 
-### Funnel
+#### Funnel
 
 - Begin with generalized questions (Open-ended questions)
 - Conclude by narrowing down (Close-ended questions)
 - it provides an easy, non-threatening way to begin an interview
 - good when the interviewee feels emotional about the topic
 
-### Diamond
+#### Diamond
 
 - Begins in aver specific way (Close-ended questions)
 - Then more general issues (open-ended questions)
 - Conclude (close-ended questions)
 - _useful in_ keeping the interviewee's interest and attention through a variety of questions
 
-## Phases
+### Phases
 
-### Before
+#### Before
 
 - contact the interviewee and confirm the interview
 - dress appropriately
 - arrive a little early
 - affirm that you are present
 
-### During
+#### During
 
 - the interview should not exceed 45 minutes to one hour
 - make sure that you are understanding what the interviewee is telling you
 - ask for definitions if needed
 - use probing questions
 
-### After
+#### After
 
-#### Closing
+##### Closing
 
 - Always ask "is there anything else that you would like to add?"
 - summarize and provide feedback on your impressions
@@ -712,13 +723,44 @@ The difference is that _non-functional requirement_ describes **how the system w
 - set up any future appointments
 - thank them for their time and shake the hand
 
-#### Report
+##### Report
 
 - write as soon as possible after the interview
 - provide an initial summary, then more details
 - review the report with the respondent
 
-# Survey/Questionnaire
+## Joint Application Design (JAD)
+
+> an information gathering technique that allows the project team, users, and management to work together to identify requirements for the system.
+
+- An information gathering technique that replaces interviews with the use community.
+- Allows the analyst to accomplish requirements analysis and design the UI with users in the a group setting
+- used when organizational culture supports joint problem-solving behaviors
+
+### Jad Personnel
+
+- Analysts
+- Users
+- Executives
+- Observers
+- A scribe
+- A session leader
+
+### Advantages
+
+- A time saver compared to traditional interviews
+- Rapid development of systems
+- Improved user ownership of the system
+- Creative idea production is improved
+
+### Disadvantages
+
+- jad requires a large block of time
+- If preparations are incomplete, the session may not go very well
+- if the follow-up report is incomplete, the session may not be successful
+- The organizational skills and culture may not be conducive to a JAD session
+
+## Survey/Questionnaire
 
 - Useful in gathering information from key organization members about
     - attitudes
@@ -731,7 +773,7 @@ The difference is that _non-functional requirement_ describes **how the system w
     - offer to the correct individuals
     - determine due date
 
-## Questionnaire languages
+### Questionnaire languages
 
 - misunderstanding of inquiries can prompt useless and pointless answers by being
     - simple
@@ -741,28 +783,49 @@ The difference is that _non-functional requirement_ describes **how the system w
     - free of bias
     - avoiding objectionable questions
 
-## Scaling
+### Scaling
 
 - Use measurement scales
     - scaling is the process of assigning numbers to an attribute
     - reliability of scales refers to consistency in response
     - validity is the degree to which the questions measures what the analyst intends to measure
 
-## Questionnaire format
+#### Nominal scales
 
-### Fixed Format
+> Nominal scales are used to classify things in categories
+
+#### Ordinal Scales
+
+> Allow classification & also imply rank ordering
+
+#### Interval scales 
+
+- Used when intervals are equal
+- There is no absolute zero
+    - Meaning that the user has to classifying something, for example, as useful or not useful
+
+#### Ratio scales
+
+- The intervals between numbers are equal
+- Have an absolute zero
+    - Meaning that the user has to ability to select a ratio that is exactly zero.
+
+
+### Questionnaire format
+
+#### Fixed Format
 
 - Consists of questions that need a variety of predefined responses
 - respondents have to choose an answer from a series of answers provided
 - replies from this format of the questionnaire are a lot simpler to interpret
 - increasingly latent; respondents can't ive their answers
 
-### Free format
+#### Free format
 
 - Enable users to answer openly for each inquiry
 - respondent enters the appropriate response in the space
 
-# Observations
+## Observations
 
 - observing
     - decision maker
@@ -772,10 +835,205 @@ The difference is that _non-functional requirement_ describes **how the system w
 - provides insight into what organizational members do
 - confirms what has been found through other methods
 
-## Analyst play script
+### Analyst play script
 
 - involves observing the decision-maker's behavior and recording their actions using a series of action verbs as
     - talking
     - sampling
     - corresponding
     - deciding
+
+# DFD (Data flow diagram)
+
+> *Graphical* representation that describes *processes* and *data movement* through out the system
+
+DFD consists of 4 elements:
+
+- Process
+- Data flow
+- Data Store
+- External entities
+
+## Process
+
+Every **Process** must have 
+- A number
+- A name
+- at least one output data flow
+- at least one input
+- Can be exploded into *child* processes
+- is represented by a rounded rectangles
+    - can be also be represented by a circle
+
+![](D:\computer-science\02-24-00302-Systems-Analysis-And-Design\System-Analysis-And-Design-Notes\Process.png)
+
+![](D:\computer-science\02-24-00302-Systems-Analysis-And-Design\System-Analysis-And-Design-Notes\Process1.png)
+
+## Data flow
+
+> Describes *movement* of *data* from one process to another
+> Data is a single piece or a logical collection of several pieces of info.
+
+Every *Data Flow* has:
+- A name
+- One or more connections
+- must be in one direction.
+
+## Data Store
+
+> Collection of data stored in some way
+
+Every *Data Store* has:
+- A number (unique such as $D_1, D_2,D_3$)
+- A name
+- At least *one input* data flow
+- at least *one output* data flows
+- Shall be connect to processes
+
+
+## External entity
+
+> It's a **person,organization, or system** that is *external* to the *system*, but *interacts* with it (**provide** data or **receive** data)
+
+Every *External entity* has:
+- A name
+- can't be connect to another entity
+- Represented by a rectangle (two rectangle inside each other)
+
+## Context diagram
+
+- To-level view of the system that shows the overall boundaries of it.
+- Represents the results of fact-finding (information gathering)
+- Contains one process numbered $0$ which represents the whole system.
+- Data flow connects the process to the external entities
+- No data-stores
+- No sub-processes
+
+## 0-Diagram (Level 0 Diagram)
+
+- Shows all the *Major processes* that build the system and how they are *interrelated*
+- Process are numbered from $1,2,\cdots$
+- The major data stores and external entities are included
+- Shows the data movement from and to each *process*
+- There is one and only one level-0 Diagram
+
+# Data Dictionary
+
+> **main method** for analyzing the data flow and data stores of **DFD**
+> **Data Dictionary** is built for *each data flow* or *Data Store*.
+
+Reason for using a data Dictionary
+- Determine the contents of *data stores*
+- Develop the **Logic** for data flow diagram processes
+- Provide a starting point for developing screen and reports
+- Validate the data flow diagram for **completeness** and **Accuracy**
+- Eliminate redundancy
+
+**Data Dictionary** consists of:
+1. Description form
+2. Data structures
+3. Data Elements
+
+## Description form of Data flow
+- Id
+- unique descriptive name
+- Description
+- The source of the data flow
+- The destination of the data flow
+- Type of data flow
+- The name of the data structure describing the elements
+- The volume per unit time
+- Comments
+
+```
+Id:                 1
+Name:               Employee information
+Description:        Contains full unchecked information about employees
+Source              External Entity - Employee
+Destination:        Process 1 - Create employee record
+Type of Data flow:  Screen
+Data Structure:     Employee Data
+Volume/Time:        10/hour
+Comments:           This information for one employee in company that request paycheck
+```
+
+## Data Structure
+
+- is a group of smaller **structures** and **elements**
+- is represented by **Algebraic notation**
+    - "=" $\rightarrow$ consists of 
+    - "+" $\rightarrow$ and
+    - "{}" $\rightarrow$ group of elements (repetitive elements)
+    - "[]" $\rightarrow$ either or elements
+    - "()" $\rightarrow$ optional element
+
+### Examples
+
+```
+Employee Data =     Employee ID +
+                    Employee Name +
+                    Employee Address +
+                    (Employee Email) +
+                    Employee Department +
+                    {Employee projects} +
+                    [pay method]
+```
+
+### Structural Records
+
+- A structure my consist of elements or structural records
+    - Employee Name
+    - Employee Address
+- Each of these must be further defined until they are broken down into their component elements
+
+#### Example
+
+```
+Employee Name       =   First Name + 
+                        (middle) Name +
+                        Last name
+Employee Address    =   Street +
+                        (Apartment) +
+                        City +
+                        State +
+                        Zip +
+                        (country)    
+```
+## Logical And physical data structures
+
+### Logical
+
+> Shows what data the business needs for its day-to-day operations.
+
+### Physical
+
+> Include additional elements necessary for implementing the system
+
+- Key fields used to locate records
+- codes used to identify record status
+- Transaction codes to identify different record types
+- Repeating group entries
+- Limits on items in a repeating group
+- Password.
+
+## Data Element
+
+> Should be defined with **Descriptive information**, *length* and *type of data information*, *validation* and *default values*
+
+**Elements should be defined once in the data dictionary**
+
+Data element consists of:
+- Element Id
+- Name
+- Alias
+- Short description
+- Base or derived?
+- Element length
+- Type of data
+- Input and output formats
+- Validation criteria
+- default value (if it exists)
+- Comments
+
+
+
