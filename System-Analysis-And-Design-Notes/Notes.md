@@ -691,7 +691,7 @@ The difference is that _non-functional requirement_ describes **how the system w
 
 #### Diamond
 
-- Begins in aver specific way (Close-ended questions)
+- Begins in a very specific way (Close-ended questions)
 - Then more general issues (open-ended questions)
 - Conclude (close-ended questions)
 - _useful in_ keeping the interviewee's interest and attention through a variety of questions
