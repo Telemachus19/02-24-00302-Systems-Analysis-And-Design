@@ -1,0 +1,128 @@
+\ProvidesPackage{mystyle}
+\usepackage[
+  paperwidth = 210mm,
+    paperheight= 297mm,
+  left=0.5in,
+  right=0.5in,
+  top=0.5in,
+  bottom=0.5in]{geometry}
+%-------------------------------------Fonts------------------------------------%
+\usepackage{mathptmx}
+\usepackage[T1]{fontenc}
+%-----------------------------Multi columns package----------------------------%
+\usepackage{multicol}
+\setlength{\columnsep}{1cm}
+\setlength{\columnseprule}{0.4pt}
+\usepackage[english]{babel}
+
+%------------------------------------TIKZ--------------------------------------%
+\usepackage{tikz}
+\usetikzlibrary{angles,quotes,positioning,arrows,shapes,patterns,decorations,calc,decorations.pathreplacing,trees}
+\usepackage{pgfplots}
+%----------------------------------Adding colors-------------------------------%
+\usepackage{xcolor}
+%---------------------------------better aligned text--------------------------%
+\usepackage[document]{ragged2e}
+\usepackage{enumitem}
+\usepackage[super]{nth}
+\usepackage{hyperref}
+\usepackage{sidenotes}
+%--------------------------------Vectors---------------------------------------%
+\usepackage[c]{esvect}
+\usepackage{ifthen}
+\usepackage{subfiles}
+\usepackage[fleqn]{mathtools}
+\setlength{\mathindent}{1pt}
+\usepackage{amssymb}
+\usepackage{xsim}
+\usepackage{tasks}
+\usepackage{tcolorbox}
+\usepackage{pdfpages}
+\usepackage{wrapfig}
+\hypersetup{colorlinks,linkcolor=black} % coloured links
+\usepackage{booktabs} % Better horizontal rules in tables
+\usepackage{graphicx} % Needed to insert images into the document
+\usepackage{svg}
+\setkeys{Gin}{width = 0.9\linewidth,keepaspectratio} % Improves figure scaling
+\newcounter{sections}
+\setcounter{secnumdepth}{2}
+\setcounter{tocdepth}{1}
+\pgfplotsset{compat=1.18}
+\newcommand{\session}[2]{\textit{(\nth{#1} session #2)}}
+\newcommand{\meterperscondsquare}{\textbf{m./$\text{sec.}^2$}}
+\newcommand{\per}[3]{$\frac{\mathbf{#1}}{\mathbf{#2}^{#3}}$} 
+
+% \NewTasksEnvironment[
+%   label = (\textit{\alph*}),
+%   label-width = 21pt
+% ]{choice}[\choice]
+
+% \NewTasksEnvironment[
+%   label = (\textit{\arabic*}),
+%   label-width = 21pt
+% ]{arabicChoice}[\choice]
+
+\settasks{
+  label = (\textit{\Roman*}),
+  label-width = 18pt
+}
+
+% \DeclareExerciseEnvironmentTemplate{number-only}{%
+%   \par\noindent
+%   \textbf{\GetExerciseProperty{counter-value}}.%
+%   \GetExercisePropertyT{subtitle}{ \textit{#1}} %
+% }{\par}
+% \DeclareExerciseEnvironmentTemplate{solution-number-only}{%
+%   \par\noindent
+%   \textbf{\GetExerciseProperty{counter-value}}.\space%
+% }{\par}
+
+% \xsimsetup{
+%   exercise/the-counter=\arabic{exercise},  
+%   exercise/template=number-only,
+%   solution/template=solution-number-only,
+%   exercise/within=section
+% }
+\newcounter{questions}
+\numberwithin{questions}{section}
+\tcbuselibrary{skins,breakable}
+\newtcolorbox[use counter = questions]{qbox}{%
+enhanced jigsaw,colback=white,colframe=black,breakable,boxrule= 0.5pt,fonttitle=\bfseries,nobeforeafter,
+title=Example.~\thetcbcounter}
+\newtcolorbox{tbox}{%
+enhanced jigsaw,colback=white,colframe=black,breakable,boxrule= 0.1pt,fonttitle=\bfseries,nobeforeafter}
+
+
+\DeclareExerciseEnvironmentTemplate{item}
+  {\item[\GetExerciseProperty{counter}]}
+  {}
+
+\DeclareExerciseProperty{answer}
+
+\newcommand*\answer[1]{%
+  \XSIMexpandcode{%
+    \SetExerciseProperty{answer}
+      { (\noexpand\textit{\alph{task}}) \unexpanded{#1}}}%
+  #1%
+}
+
+\newcommand*\getanswers{%
+  \def\betweenanswers{\def\betweenanswers{\hspace{2em}}}%
+  \ForEachUsedExerciseByID{%
+    ##3\ExercisePropertyGet{##1}{##2}{answer} \newline%
+  }%
+}
+
+\xsimsetup{
+  exercise/template = item,
+  exercise/the-counter = \arabic{exercise}.
+}
+
+\NewTasksEnvironment[
+  label = (\textit{\alph*}) ,
+  label-width = 18pt
+]{choice}[\choice]
+
+\newenvironment{questions}
+   {\itemize}
+   {\enditemize}

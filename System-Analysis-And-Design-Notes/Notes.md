@@ -152,7 +152,6 @@ An Organization may also be described as a system where all staff interact with 
 - Supporting Expert
     -  an analyst draws on professional expertise concerning computer hardware and software and their uses in the business.
 - Agent of change
-    - 
 
 # What's a System/Software Development Life Cycle?
 
